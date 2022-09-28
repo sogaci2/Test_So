@@ -8,6 +8,10 @@
   <packaging>pom</packaging>
   <name>TEST_SO Codes Master</name>
   <url>http://www.talend.org/</url>
+  <modules>
+    <module>code/routines</module>
+    <module>code/beans</module>
+  </modules>
   <properties>
     <talend.project.name>TEST_SO</talend.project.name>
     <talend.docker.tag>${project.version}</talend.docker.tag>
